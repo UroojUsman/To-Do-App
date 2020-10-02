@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-color:rgb(77, 150, 150);
+    padding-bottom: 0;
+    
+}
+.container-fluid
+{
+    background-color: #fae6ff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.headb
+{width: auto;
+height: 180px;
+background-image: url('images/sea-edge-79ab30e2.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+border-radius: 15px 15px 0 0;   
+}
+
+.clear
+{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.clear i{
+    font-size: 30px;
+    color: #FFF;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
+#date{
+   position: absolute;
+    top: 120px;
+    left: 20px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight:700;
+}
+.content{
+    width:auto;
+    height: 350px;
+    max-height:350px;
+    background-color: #FFF;
+    
+}
+
+.content ul
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.item{
+    width:auto;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+
+.add_todo{
+    position: relative;
+    width: auto;
+    height:100%;
+    background-color: rgb(253, 247, 247);
+    padding:20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add_todo i{
+    position: absolute;
+    font-size: 40px;
+    color: #3252dd;
+}
+
+.add_todo input{
+    position: relative;
+    left: 50px;
+    height: 35px;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin-left:2px ;
+    padding-left:10px;
+    color: #1f369b;
+    border-bottom:2px solid;
+}
+
+.item{
+    width:auto;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.cir{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    margin-right: 5px;
+    left:15px;
+    top:10px;
+}
+.item i.cir:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:55px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.fas fa-check-circle{
+    color:#6eb200;
+}
